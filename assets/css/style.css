@@ -9827,13 +9827,15 @@ xclip
 a.btn-default,
 button.btn-default,
 div.btn-default {
-  padding: 0 28px;
+  /* padding: 0 28px; */
+  padding: 0 7px;
   border-style: solid;
   border-width: 2px;
   border-color: transparent;
   border-radius: 8px;
   background-color: transparent;
-  background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%;
+  /* background: linear-gradient(95deg, var(--color-primary) 15%, var(--color-tertiary) 45%, var(--color-pink) 75%, var(--color-secondary) 100%) 95%/200% 100%; */
+  background: linear-gradient(95deg, var(--color-primary) 15%, #008dcb 45%, #008dcb 75%, #008dcb 100%) 95%/200% 100%;
   transition-duration: 300ms;
   color: var(--color-white);
   font-size: 16px;
@@ -16019,7 +16021,8 @@ body.active-light-mode .slider-area.bg-transparent .inner button.btn-default.btn
 }
 @media only screen and (max-width: 460px) {
   a.btn-default, button.btn-default, div.btn-default {
-    height: 90px;
+    /* height: 90px; */
+    /* font-size: 9px; */
   }
 }
 /*# sourceMappingURL=../maps/style.css.map */
