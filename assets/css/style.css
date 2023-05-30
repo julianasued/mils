@@ -16020,10 +16020,9 @@ body.active-light-mode .slider-area.bg-transparent .inner button.btn-default.btn
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 460px) {
-  a.btn-default, button.btn-default, div.btn-default {
-    /* height: 90px; */
-    /* font-size: 9px; */
+@media only screen and (max-width: 426px) {
+  .collaborate .display-two{
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=../maps/style.css.map */
