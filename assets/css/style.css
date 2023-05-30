@@ -7894,6 +7894,7 @@ textarea:-ms-input-placeholder {
   margin-right: 9px;
   min-width: 30px;
   min-height: 30px;
+  color: #002336;
 }
 .list-icon li .icon.background-transparent {
   background-color: transparent;
